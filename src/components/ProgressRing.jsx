@@ -3,7 +3,7 @@ export function BudgetProgressRing({ spent, limit }) {
   const radius = 45
   const circumference = 2 * Math.PI * radius
   const offset = circumference - (percentage / 100) * circumference
-
+    
   const color = percentage > 100 ? "#ef4444" : percentage > 80 ? "#eab308" : "#10b981"
 
   return (

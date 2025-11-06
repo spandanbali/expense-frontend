@@ -13,7 +13,7 @@ function isAuthed() {
 function GuestRoute({ children }) {
   return isAuthed() ? <Navigate to="/dashboard" replace /> : children
 }
-
+         
 function ProtectedRoute({ children }) {
   return isAuthed() ? children : <Navigate to="/auth/signin" replace />
 }

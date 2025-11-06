@@ -12,7 +12,7 @@ import {
   Shield,
   CheckCircle,
   Menu,
-  X,
+  X,   
 } from "lucide-react"
 
 export default function Landing() {

@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom"
 import { Eye, EyeOff, Loader2, Lock, Mail, User, PieChart } from "lucide-react"
 import { signinSchema, signupSchema } from "../hooks/useFormValidation"
 
-const BASE = import.meta.env.VITE_API_BASE;
+const BASE = import.meta.env.VITE_API_BASE;  
 
 export default function Signin() {
   const navigate = useNavigate()
